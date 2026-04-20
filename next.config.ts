@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
   distDir: "dist",
-  basePath: "/spl3-xps",
+  basePath: "/spl3-xps", // take out for dev
   images: {
     unoptimized: true,
   },

@@ -1,236 +1,63 @@
 {
     "players": [
-        {
-            "name": "Jared",
-            "score": 3551
-        },
-        {
-            "name": ".q",
-            "score": 3524
-        },
-        {
-            "name": "Grey",
-            "score": 3511
-        },
-        {
-            "name": "Zeke",
-            "score": 3507
-        },
-        {
-            "name": "Ant",
-            "score": 3489
-        },
-        {
-            "name": "Miky",
-            "score": 3472
-        },
-        {
-            "name": "Zero",
-            "score": 3429
-        },
-        {
-            "name": "Raiki",
-            "score": 3429
-        },
-        {
-            "name": "Gos",
-            "score": 3387
-        },
-        {
-            "name": "Zerraz",
-            "score": 3383
-        },
-        {
-            "name": "Phoenix",
-            "score": 3349
-        },
-        {
-            "name": "Jordan",
-            "score": 3335
-        },
-        {
-            "name": "Redshell",
-            "score": 3326
-        },
-        {
-            "name": "Volty",
-            "score": 3318
-        },
-        {
-            "name": "Kaisa",
-            "score": 3316
-        },
-        {
-            "name": "EnrageJeff",
-            "score": 3308
-        },
-        {
-            "name": "Lucina",
-            "score": 3307
-        },
-        {
-            "name": "Sam",
-            "score": 3295
-        },
-        {
-            "name": "Nex",
-            "score": 3276
-        },
-        {
-            "name": "Tody",
-            "score": 3276
-        },
-        {
-            "name": "Madamereef",
-            "score": 3266
-        },
-        {
-            "name": "Datkid",
-            "score": 3251
-        },
-        {
-            "name": "Basil",
-            "score": 3250
-        },
-        {
-            "name": "Xenith",
-            "score": 3248
-        },
-        {
-            "name": "Noah",
-            "score": 3244
-        },
-        {
-            "name": "Jose",
-            "score": 3244
-        },
-        {
-            "name": "Obito",
-            "score": 3232
-        },
-        {
-            "name": "Bran",
-            "score": 3232
-        },
-        {
-            "name": "Shadowind",
-            "score": 3230
-        },
-        {
-            "name": "Kiver",
-            "score": 3216
-        },
-        {
-            "name": "Fantarr",
-            "score": 3214
-        },
-        {
-            "name": "Dylan",
-            "score": 3206
-        },
-        {
-            "name": "Robbe",
-            "score": 3204
-        },
-        {
-            "name": "Slurpcat",
-            "score": 3200
-        },
-        {
-            "name": "Addict",
-            "score": 3198
-        },
-        {
-            "name": "Devin",
-            "score": 3178
-        },
-        {
-            "name": "Chronos",
-            "score": 3176
-        },
-        {
-            "name": "Laby",
-            "score": 3172
-        },
-        {
-            "name": "Hexen",
-            "score": 3167
-        },
-        {
-            "name": "Caden",
-            "score": 3166
-        },
-        {
-            "name": "ΚιτΚατ",
-            "score": 3156
-        },
-        {
-            "name": "Cinnamon",
-            "score": 3155
-        },
-        {
-            "name": "Channo",
-            "score": 3154
-        },
-        {
-            "name": "Angelu",
-            "score": 3148
-        },
-        {
-            "name": "Hyeon",
-            "score": 3148
-        },
-        {
-            "name": "Yoshell",
-            "score": 3138
-        },
-        {
-            "name": "Mecha",
-            "score": 3133
-        },
-        {
-            "name": "Henlo",
-            "score": 3130
-        },
-        {
-            "name": "Erza",
-            "score": 3124
-        },
-        {
-            "name": "Yeti",
-            "score": 3122
-        },
-        {
-            "name": "Nolan",
-            "score": 3119
-        },
-        {
-            "name": "Acing",
-            "score": 3115
-        },
-        {
-            "name": "Mar",
-            "score": 3114
-        },
-        {
-            "name": "Noctis",
-            "score": 3109
-        },
-        {
-            "name": "Chara",
-            "score": 3107
-        },
-        {
-            "name": "Luma",
-            "score": 3105
-        },
-        {
-            "name": "Birbdon",
-            "score": 3101
-        },
-        {
-            "name": "Drift",
-            "score": 3100
-        }
+        { "name": "Jared", "score": 3551, "country": "US" },
+        { "name": ".q", "score": 3524, "country": "US" },
+        { "name": "Grey", "score": 3511, "country": "France" },
+        { "name": "Zeke", "score": 3507, "country": "US" },
+        { "name": "Ant", "score": 3489, "country": "US" },
+        { "name": "Miky", "score": 3472, "country": "France" },
+        { "name": "Zero", "score": 3429, "country": "US" },
+        { "name": "Raiki", "score": 3429, "country": "France" },
+        { "name": "Gos", "score": 3387, "country": "US" },
+        { "name": "Zerraz", "score": 3383, "country": "Germany" },
+        { "name": "Phoenix", "score": 3349, "country": "Germany" },
+        { "name": "Jordan", "score": 3335, "country": "France" },
+        { "name": "Redshell", "score": 3326, "country": "US" },
+        { "name": "Volty", "score": 3318, "country": "France" },
+        { "name": "Kaisa", "score": 3316, "country": "Canada" },
+        { "name": "EnrageJeff", "score": 3308, "country": "US" },
+        { "name": "Lucina", "score": 3307, "country": "US" },
+        { "name": "Sam", "score": 3295, "country": "US" },
+        { "name": "Nex", "score": 3276, "country": "Australia" },
+        { "name": "Tody", "score": 3276, "country": "France" },
+        { "name": "Madamereef", "score": 3266, "country": "Australia" },
+        { "name": "Datkid", "score": 3251, "country": "US" },
+        { "name": "Basil", "score": 3250, "country": "US" },
+        { "name": "Xenith", "score": 3248, "country": "US" },
+        { "name": "Noah", "score": 3244, "country": "France" },
+        { "name": "Jose", "score": 3244, "country": "US" },
+        { "name": "Obito", "score": 3232, "country": "France" },
+        { "name": "Bran", "score": 3232, "country": "US" },
+        { "name": "Biscuit", "score": 3230, "country": "US" },
+        { "name": "Shadowind", "score": 3230, "country": "US" },
+        { "name": "Kiver", "score": 3216, "country": "France" },
+        { "name": "Fantarr", "score": 3214, "country": "France" },
+        { "name": "Dylan", "score": 3206, "country": "US" },
+        { "name": "Robbe", "score": 3204, "country": "Belgium" },
+        { "name": "Slurpcat", "score": 3200, "country": "Germany" },
+        { "name": "Addict", "score": 3198, "country": "Australia" },
+        { "name": "Devin", "score": 3178, "country": "Germany" },
+        { "name": "Chronos", "score": 3176, "country": "US" },
+        { "name": "Laby", "score": 3172, "country": "Germany" },
+        { "name": "Hexen", "score": 3167, "country": "US" },
+        { "name": "Caden", "score": 3166, "country": "US" },
+        { "name": "ΚιτΚατ", "score": 3156, "country": "France" },
+        { "name": "Cinnamon", "score": 3155, "country": "US" },
+        { "name": "Channo", "score": 3154, "country": "UK" },
+        { "name": "Angelu", "score": 3148, "country": "US" },
+        { "name": "Hyeon", "score": 3148, "country": "Germany" },
+        { "name": "Yoshell", "score": 3138, "country": "UK" },
+        { "name": "Mecha", "score": 3133, "country": "US" },
+        { "name": "Henlo", "score": 3130, "country": "US" },
+        { "name": "Erza", "score": 3124, "country": "France" },
+        { "name": "Yeti", "score": 3122, "country": "France" },
+        { "name": "Nolan", "score": 3119, "country": "US" },
+        { "name": "Acing", "score": 3115, "country": "UK" },
+        { "name": "Mar", "score": 3114, "country": "Canada" },
+        { "name": "Noctis", "score": 3109, "country": "Germany" },
+        { "name": "Chara", "score": 3107, "country": "US" },
+        { "name": "Luma", "score": 3105, "country": "France" },
+        { "name": "Birbdon", "score": 3101, "country": "US" },
+        { "name": "Drift", "score": 3100, "country": "US" }
     ]
 }
