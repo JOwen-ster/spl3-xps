@@ -58,6 +58,8 @@
         { "name": "Chara", "score": 3107, "country": "US" },
         { "name": "Luma", "score": 3105, "country": "France" },
         { "name": "Birbdon", "score": 3101, "country": "US" },
-        { "name": "Drift", "score": 3100, "country": "US" }
+        { "name": "Drift", "score": 3100, "country": "US" },
+        { "name": "Inukun", "score": 3411, "country": "Luxembourg"},
+        { "name": "Shicago", "score": 3103, "country": "US"}
     ]
 }
