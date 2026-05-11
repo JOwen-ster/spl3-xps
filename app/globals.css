@@ -11,7 +11,6 @@
 }
 
 @theme inline {
-  --color-background: var(--background);
   --color-search-bg: var(--search-bg);
   --color-pill-bg: var(--pill-bg);
   --color-rank-gold: var(--rank-gold);
@@ -24,7 +23,7 @@
 
 @layer utilities {
   .pill {
-    @apply bg-pill-bg text-black/70 font-medium px-8 py-2 rounded-full min-w-[120px] text-center;
+    @apply bg-pill-bg text-black/70 font-medium px-3 sm:px-8 py-1.5 sm:py-2 rounded-full min-w-[70px] sm:min-w-[120px] text-xs sm:text-base text-center;
   }
 
   .pagination-btn {
