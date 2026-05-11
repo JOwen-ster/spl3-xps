@@ -27,7 +27,7 @@
     "tailwindcss": "^4",
     "typescript": "^5"
   },
-    "pnpm": {
-      "onlyBuiltDependencies": ["sharp"]
+  "pnpm": {
+    "onlyBuiltDependencies": ["sharp"]
   }
 }
