@@ -61,7 +61,7 @@
         { "name": "Drift", "power": 3100, "country": "US" },
         { "name": "Inukun", "power": 3411, "country": "Luxembourg"},
         { "name": "Shicago", "power": 3103, "country": "US"},
-        { "name": "Omega", "power": 3410, "country": "US"},
+        { "name": "OmegaKraken", "power": 3410, "country": "US"},
         { "name": "Youx", "power": 3193, "country": "France"},
         { "name": "Jrod", "power": 3110, "country": "US"}
     ]
