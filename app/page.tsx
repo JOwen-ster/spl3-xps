@@ -27,25 +27,19 @@ const playerRanks = new Map(allPlayersSorted.map((p, i) => [p.name, i + 1]));
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
+  const query = searchQuery.toLowerCase();
 
-  const filteredPlayers = useMemo(() => {
-    const query = searchQuery.toLowerCase();
-
-    return allPlayersSorted.filter((player) => {
-      return (
-        player.name.toLowerCase().includes(query) ||
-        String(player.xp).includes(query) ||
-        (player.country?.toLowerCase().includes(query) ?? false)
-      );
-    });
-  }, [searchQuery]);
+  const filteredPlayers = allPlayersSorted.filter((player) => {
+    return (
+      player.name.toLowerCase().includes(query) ||
+      String(player.xp).includes(query) ||
+      (player.country?.toLowerCase().includes(query) ?? false)
+    );
+  });
 
   const totalPages = Math.ceil(filteredPlayers.length / ITEMS_PER_PAGE);
-
-  const currentPlayers = useMemo(() => {
-    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-    return filteredPlayers.slice(startIndex, startIndex + ITEMS_PER_PAGE);
-  }, [filteredPlayers, currentPage]);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const currentPlayers = filteredPlayers.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(e.target.value);
