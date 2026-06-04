@@ -144,7 +144,7 @@ export default function Home() {
       </div>
 
       <a href="https://github.com/North-West-Wind/splatoon3-fonts" className="underline text-blue-700">
-        Font Used
+        BlitzMain Font
       </a>
     </main>
   );
