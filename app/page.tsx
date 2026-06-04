@@ -66,6 +66,10 @@ export default function Home() {
         />
       </div>
 
+      <div>
+        <p>Made by <span className="text-blue-700">@typos.</span> on Discord</p>
+      </div>
+
       <div className="w-full max-w-4xl bg-white rounded-3xl sm:rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col">
         <div className="flex items-center justify-between px-4 sm:px-12 py-5 sm:py-8">
           {COLUMN_HEADERS.map((header) => (
@@ -136,7 +140,12 @@ export default function Home() {
         >
           <ChevronRight size={32} strokeWidth={3} />
         </button>
+        
       </div>
+
+      <a href="https://github.com/North-West-Wind/splatoon3-fonts" className="underline text-blue-700">
+        Font Used
+      </a>
     </main>
   );
 }
