@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import verifiedData from "@/data/verified.json";
 import { cn } from "@/app/utils/cn";
@@ -60,7 +60,7 @@ export default function Home() {
         <input
           type="text"
           placeholder="Search Player, XP, Country..."
-          className="w-full bg-search-bg text-black/60 text-base sm:text-lg px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg outline-none placeholder:text-black/40"
+          className="w-full bg-search-bg text-black/60 text-base sm:text-lg px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg outline-none placeholder:text-black/40 border-3 border-black"
           value={searchQuery}
           onChange={handleSearchChange}
         />

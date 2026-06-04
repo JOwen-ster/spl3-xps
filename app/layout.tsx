@@ -1,20 +1,17 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from 'next/font/local'
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const blitzMain = localFont({
+  src: '../public/fonts/BlitzMain.otf',
+  variable: '--font-blitz',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: "Spl3 Western XP's",
-  description: "Website to display the highest xp's for western players in the japan region",
+  description: "The highest xp's for western players in the japan region",
 };
 
 export default function RootLayout({
@@ -25,7 +22,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${blitzMain.variable}`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
