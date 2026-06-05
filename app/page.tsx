@@ -68,6 +68,7 @@ export default function Home() {
 
       <div>
         <p>Made by <span className="text-blue-700">@typos.</span> on Discord</p>
+        <a target="_blank" rel="noreferrer" href="https://x.com/Xenithvee">Data from <span className="text-blue-700">@Xenithvee</span> on Twitter</a>
       </div>
 
       <div className="w-full max-w-4xl bg-white rounded-3xl sm:rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col">
